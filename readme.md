@@ -21,8 +21,23 @@ Inspired by the idea of human joint connection, we propose to construct SN-Graph
 4. For an isolated sphere node, it needs to be connected to another nearest node.
 
 
-The following image shows the SNG of airplane with 32, 8, 16, 64, 128 and 256 nodes.
-![Airplane SNG with 32, 8, 16, 64, 128, 256 Nodes](/images/sng.jpg)
+This image shows the process of generate a SN-Graph
+
+![process](/images/generate-process.gif)
+![process](/images/connect-process.gif)
+
+This image shows the SNG of airplane with different nodes.
+
+![Airplane SNG with 8, 16, 32, 64, 128, 256 Nodes](/images/sng.jpg)
+
+
+And the following images shows the SNG of different objects.
+
+![SNG 1](/images/sngs-part1.jpg)
+
+![SNG 2](/images/sngs-part2.jpg)
+
+![SNG 3](/images/sngs-part3.jpg)
 
 ## Networks
 Similar to most graph classification networks, our network follows the design of `graph convolution => readout => classifier`. 
