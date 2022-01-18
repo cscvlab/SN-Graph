@@ -65,8 +65,6 @@ The usage of this part is to generate SN-Graph from voxel files.
 ### SN-Graph Network
 The code has been tested on pytorch 1.7.1 + PyG 1.6.3 + CUDA 11.0
 
-### Paper file
-
 ## License
 
 This project is licensed under the terms of the MIT license (see `LICENSE` for details).
