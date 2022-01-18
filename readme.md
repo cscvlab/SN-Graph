@@ -1,5 +1,9 @@
 # SN-Graph: a Minimalist 3D Object Representation for Classification
 
+This repository contains the implementation of the paper:
+
+Siyu Zhang, Hui Cao, Yuqi Liu, Shen Cai∗, Yanting Zhang, Yuanzhan Li and Xiaoyu Chi. SN-Graph: a Minimalist 3D Object Representation for Classification. IEEE International Conference on Multimedia and Expo (ICME) 2021, oral presentation.
+
 ## Abstract
 Using deep learning techniques to process 3D objects has achieved many successes. However, few methods focus on the representation of 3D objects, which could be more effective for specific tasks than traditional representations, such as point clouds, voxels, and multi-view images. In this paper, we propose a Sphere Node Graph (SN-Graph) to represent 3D objects. Specifically, we extract a certain number of internal spheres (as nodes) from the signed distance field (SDF), and then establish connections (as edges) among the sphere nodes to construct a graph, which is seamlessly suitable for 3D analysis using graph neural network (GNN). Experiments conducted on the ModelNet40 dataset show that when there are fewer nodes in the graph or the tested objects are rotated arbitrarily, the classification accuracy of SN-Graph is significantly higher than the state-of-the-art methods.
 
