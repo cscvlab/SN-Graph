@@ -67,4 +67,4 @@ The code has been tested on pytorch 1.7.1 + PyG 1.6.3 + CUDA 11.0
 
 ## License
 
-This project is licensed under the terms of the Apache License (see `LICENSE` for details).
+This project is licensed under the terms of the LGPL License (see `LICENSE` for details).
